@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background:url(images/bckg.jpg);
+            background-size: cover;
+            background-position: center;
+            font-family: sans-serif;
+        }
+        .loginbox{
+            width: 400px;
+            height: 420px;
+            background-color: #df653a;
+            color: #130707;
+            top: 50%;
+            left: 50%;
+            position: absolute;
+            transform: translate(-50%,-50%);
+            box-sizing: border-box;
+            padding: 70px 30px;
+            border-radius: 20px;
+        }
+        
+        h1{
+            margin: 0;
+            padding: 0 0 20px;
+            text-align: center;
+            font-size: 22px;
+        }
+        .loginbox p{
+            margin: 0;
+            padding: 0;
+            font-weight: bold;
+            font-size: 25px;
+
+        }
+        .loginbox input{
+            width: 300px;
+            margin-bottom: 20px;
+            margin: 12px 0;
+            border-radius: 30px;
+            height: 30px;
+            font-size: 20px;
+
+        }
+        .loginbox input[type ="text"]input[type ="password"]
+        {
+            background: transparent;
+           
+            width: 100px;
+            color: #fff;
+            font-size: 60px;
+            border-radius: 20px;
+        }
+        .loginbox input[type="submit"]
+        {
+            border: none;
+            outline: none;
+            height: 40px;
+            width: 200px;
+            background-color: linen;
+            color: #130404;
+            font-size: 18px;
+            border-radius: 20px;
+            
+            
+        }
+        .loginbox input[type="submit"]:hover{
+            cursor: pointer;
+            background:yellow;
+            color:black;
+
+        }
+        .loginbox a{
+            text-decoration: none;
+            font-size: 20px;
+            line-height: 20px;
+            color: rgb(25, 6, 6);
+            text-align: center;
+        }     
+    </style>
+</head>
+<body>
+   <div class="loginbox"> 
+    <h1>login here</h1>
+    <form action="">
+        <p>user name</p>
+        <input type="text" name="" placeholder="Enter your name">
+        <p>password</p>
+        <input type="password" name="" placeholder="Enter your password">
+        <input type="submit" name="" value="login"><br>
+        <a href="Register.html">lost your password?</a>
+        <br>
+        <br>
+        <a href="Register.html">don't have an account</a>
+
+    </form>
+   </div> 
+</body>
+</html>

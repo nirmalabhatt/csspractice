@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox example </title>
+    <style>
+.container{
+ /*by defualt direction is row
+ flex-direction: column;*/
+ /*flex-direction: row-reverse;
+ flex-direction: column-reverse;*/
+ border: 2px solid royalblue;
+ height: 500px;
+
+ /*justify-content:center;*/
+ /*justify-content: flex-end;
+ justify-content: flex-start;*/
+ 
+/* justify-content: space-evenly;*/
+ /*justify-content: space-around;*/
+ /*justify-content: space-between;*/
+ 
+
+ /*
+ align-items: flex-start;
+ align-items: flex-end;
+ align-items: center;
+ */
+ display: flex;
+}
+.flexitem
+{
+background-color: red;
+margin: 20px;
+height: 100px;
+width: 150px;
+}
+ </style>
+</head>
+<body>
+    <div class="container">
+        <div class="flexitem">1</div>
+        <div class="flexitem">2</div>
+        <div class="flexitem">3</div>
+        <div class="flexitem">4</div>
+        <div class="flexitem">5</div>
+        
+    </div>
+</body>
+</html>
